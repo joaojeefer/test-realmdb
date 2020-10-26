@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import {
+  ActivityIndicator,
   Alert,
   View,
   Text,
@@ -16,7 +17,9 @@ import styles from './style';
 
 function RepositoryList() {
   const dispatch = useDispatch();
-  const repositories = useSelector((state) => state.repository.repositories);
+  const repositories = useSelector(state => state.repository.repositories);
+  const loading = useSelector(state => state.repository.status === 'LOADING');
+
   const [input, setInput] = useState('');
 
   useEffect(() => {
@@ -77,6 +80,11 @@ function RepositoryList() {
           <Icon name="delete" size={22} color="#b3131b" />
         </TouchableOpacity>
       </View>
+      {!!loading && (
+        <View style={styles.loadingArea}>
+          <ActivityIndicator size="large" color="#fff" />
+        </View>
+      )}
       <FlatList
         keyboardShouldPersistTaps="handled"
         showsVerticalScrollIndicator={false}

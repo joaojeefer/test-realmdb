@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
   input: {
     flex: 1,
     maxWidth: 350,
-    paddingHorizontal: 10,
+    paddingHorizontal: 20,
     borderWidth: 2,
     borderColor: '#fff',
     borderRadius: 8,
@@ -36,6 +36,12 @@ const styles = StyleSheet.create({
   },
   list: {
     marginTop: 10,
+  },
+  loadingArea: {
+    height: 50,
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
 
