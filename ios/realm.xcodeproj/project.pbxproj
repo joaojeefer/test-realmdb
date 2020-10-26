@@ -11,15 +11,15 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2B4CBA57E61F0E117C44F5C2 /* libPods-realm-realmTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E39F5142103751215F84CC /* libPods-realm-realmTests.a */; };
+		2B4CBA57E61F0E117C44F5C2 /* libPods-test-realmTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E39F5142103751215F84CC /* libPods-test-realmTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* realmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* realmTests.m */; };
-		5C00679A3BBC63CEE1933ECC /* libPods-realm-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F95787AC7B90E9E372F31D3 /* libPods-realm-tvOS.a */; };
+		5C00679A3BBC63CEE1933ECC /* libPods-test-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F95787AC7B90E9E372F31D3 /* libPods-test-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		F213DAC1D200E5B6766C972D /* libPods-realm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1933616C4B6D85A6BA5726B1 /* libPods-realm.a */; };
-		FA6EDA50C65DCAA6C0C445AA /* libPods-realm-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 915BA8D6C4CFBC09ED1FD523 /* libPods-realm-tvOSTests.a */; };
+		F213DAC1D200E5B6766C972D /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1933616C4B6D85A6BA5726B1 /* libPods-test.a */; };
+		FA6EDA50C65DCAA6C0C445AA /* libPods-test-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 915BA8D6C4CFBC09ED1FD523 /* libPods-test-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +28,14 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = realm;
+			remoteInfo = test;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "realm-tvOS";
+			remoteInfo = "test-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -44,29 +44,29 @@
 		00E356EE1AD99517003FC87E /* realmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* realmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = realmTests.m; sourceTree = "<group>"; };
-		0900AF9582A2ABCA0F1D1262 /* Pods-realm-realmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm-realmTests.debug.xcconfig"; path = "Target Support Files/Pods-realm-realmTests/Pods-realm-realmTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* realm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = realm/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = realm/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = realm/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = realm/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = realm/main.m; sourceTree = "<group>"; };
-		1933616C4B6D85A6BA5726B1 /* libPods-realm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-realm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* realm-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "realm-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* realm-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "realm-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F95787AC7B90E9E372F31D3 /* libPods-realm-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-realm-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4678233C4FC6DD6E18FD6AA9 /* Pods-realm-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-realm-tvOS/Pods-realm-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		606739609B8B4FD923C013FB /* Pods-realm-realmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm-realmTests.release.xcconfig"; path = "Target Support Files/Pods-realm-realmTests/Pods-realm-realmTests.release.xcconfig"; sourceTree = "<group>"; };
-		69E39F5142103751215F84CC /* libPods-realm-realmTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-realm-realmTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = realm/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		915BA8D6C4CFBC09ED1FD523 /* libPods-realm-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-realm-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A95173F4D3EF868086AB3F54 /* Pods-realm-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm-tvOS.release.xcconfig"; path = "Target Support Files/Pods-realm-tvOS/Pods-realm-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		C9F4A676BC0160AD1E7EA0CC /* Pods-realm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm.release.xcconfig"; path = "Target Support Files/Pods-realm/Pods-realm.release.xcconfig"; sourceTree = "<group>"; };
-		CD938568D6F280E4635C2444 /* Pods-realm-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-realm-tvOSTests/Pods-realm-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DACD14F070EFE6D74B48163E /* Pods-realm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm.debug.xcconfig"; path = "Target Support Files/Pods-realm/Pods-realm.debug.xcconfig"; sourceTree = "<group>"; };
+		0900AF9582A2ABCA0F1D1262 /* Pods-test-realmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-realmTests.debug.xcconfig"; path = "Target Support Files/Pods-test-realmTests/Pods-test-realmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = test/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = test/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = test/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = test/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = test/main.m; sourceTree = "<group>"; };
+		1933616C4B6D85A6BA5726B1 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* test-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* test-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F95787AC7B90E9E372F31D3 /* libPods-test-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4678233C4FC6DD6E18FD6AA9 /* Pods-test-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-test-tvOS/Pods-test-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		606739609B8B4FD923C013FB /* Pods-test-realmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-realmTests.release.xcconfig"; path = "Target Support Files/Pods-test-realmTests/Pods-test-realmTests.release.xcconfig"; sourceTree = "<group>"; };
+		69E39F5142103751215F84CC /* libPods-test-realmTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test-realmTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = test/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		915BA8D6C4CFBC09ED1FD523 /* libPods-test-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95173F4D3EF868086AB3F54 /* Pods-test-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-tvOS.release.xcconfig"; path = "Target Support Files/Pods-test-tvOS/Pods-test-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C9F4A676BC0160AD1E7EA0CC /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.release.xcconfig"; path = "Target Support Files/Pods-test/Pods-test.release.xcconfig"; sourceTree = "<group>"; };
+		CD938568D6F280E4635C2444 /* Pods-test-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-test-tvOSTests/Pods-test-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DACD14F070EFE6D74B48163E /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F7CCF8B48F4F4B9AB5417E14 /* Pods-realm-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-realm-tvOSTests/Pods-realm-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7CCF8B48F4F4B9AB5417E14 /* Pods-test-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-test-tvOSTests/Pods-test-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B4CBA57E61F0E117C44F5C2 /* libPods-realm-realmTests.a in Frameworks */,
+				2B4CBA57E61F0E117C44F5C2 /* libPods-test-realmTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F213DAC1D200E5B6766C972D /* libPods-realm.a in Frameworks */,
+				F213DAC1D200E5B6766C972D /* libPods-test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C00679A3BBC63CEE1933ECC /* libPods-realm-tvOS.a in Frameworks */,
+				5C00679A3BBC63CEE1933ECC /* libPods-test-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA6EDA50C65DCAA6C0C445AA /* libPods-realm-tvOSTests.a in Frameworks */,
+				FA6EDA50C65DCAA6C0C445AA /* libPods-test-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* realm */ = {
+		13B07FAE1A68108700A75B9A /* test */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = realm;
+			name = test;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				1933616C4B6D85A6BA5726B1 /* libPods-realm.a */,
-				69E39F5142103751215F84CC /* libPods-realm-realmTests.a */,
-				3F95787AC7B90E9E372F31D3 /* libPods-realm-tvOS.a */,
-				915BA8D6C4CFBC09ED1FD523 /* libPods-realm-tvOSTests.a */,
+				1933616C4B6D85A6BA5726B1 /* libPods-test.a */,
+				69E39F5142103751215F84CC /* libPods-test-realmTests.a */,
+				3F95787AC7B90E9E372F31D3 /* libPods-test-tvOS.a */,
+				915BA8D6C4CFBC09ED1FD523 /* libPods-test-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,7 +159,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* realm */,
+				13B07FAE1A68108700A75B9A /* test */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* realmTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* realm.app */,
+				13B07F961A680F5B00A75B9A /* test.app */,
 				00E356EE1AD99517003FC87E /* realmTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* realm-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* realm-tvOSTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* test-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* test-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,14 +185,14 @@
 		F54C16A5FF56CA47CF730090 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DACD14F070EFE6D74B48163E /* Pods-realm.debug.xcconfig */,
-				C9F4A676BC0160AD1E7EA0CC /* Pods-realm.release.xcconfig */,
-				0900AF9582A2ABCA0F1D1262 /* Pods-realm-realmTests.debug.xcconfig */,
-				606739609B8B4FD923C013FB /* Pods-realm-realmTests.release.xcconfig */,
-				4678233C4FC6DD6E18FD6AA9 /* Pods-realm-tvOS.debug.xcconfig */,
-				A95173F4D3EF868086AB3F54 /* Pods-realm-tvOS.release.xcconfig */,
-				CD938568D6F280E4635C2444 /* Pods-realm-tvOSTests.debug.xcconfig */,
-				F7CCF8B48F4F4B9AB5417E14 /* Pods-realm-tvOSTests.release.xcconfig */,
+				DACD14F070EFE6D74B48163E /* Pods-test.debug.xcconfig */,
+				C9F4A676BC0160AD1E7EA0CC /* Pods-test.release.xcconfig */,
+				0900AF9582A2ABCA0F1D1262 /* Pods-test-realmTests.debug.xcconfig */,
+				606739609B8B4FD923C013FB /* Pods-test-realmTests.release.xcconfig */,
+				4678233C4FC6DD6E18FD6AA9 /* Pods-test-tvOS.debug.xcconfig */,
+				A95173F4D3EF868086AB3F54 /* Pods-test-tvOS.release.xcconfig */,
+				CD938568D6F280E4635C2444 /* Pods-test-tvOSTests.debug.xcconfig */,
+				F7CCF8B48F4F4B9AB5417E14 /* Pods-test-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -221,9 +221,9 @@
 			productReference = 00E356EE1AD99517003FC87E /* realmTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* realm */ = {
+		13B07F861A680F5B00A75B9A /* test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "realm" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "test" */;
 			buildPhases = (
 				860F988AB68B5B8F9FE916E8 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -237,14 +237,14 @@
 			);
 			dependencies = (
 			);
-			name = realm;
-			productName = realm;
-			productReference = 13B07F961A680F5B00A75B9A /* realm.app */;
+			name = test;
+			productName = test;
+			productReference = 13B07F961A680F5B00A75B9A /* test.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* realm-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* test-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "realm-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "test-tvOS" */;
 			buildPhases = (
 				77CD1CBD291E926C2B21803F /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -257,14 +257,14 @@
 			);
 			dependencies = (
 			);
-			name = "realm-tvOS";
-			productName = "realm-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* realm-tvOS.app */;
+			name = "test-tvOS";
+			productName = "test-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* test-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* realm-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* test-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "realm-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "test-tvOSTests" */;
 			buildPhases = (
 				F4E9C2576AD9F681FDE25DCC /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "realm-tvOSTests";
-			productName = "realm-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* realm-tvOSTests.xctest */;
+			name = "test-tvOSTests";
+			productName = "test-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* test-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "realm" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "test" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* realm */,
+				13B07F861A680F5B00A75B9A /* test */,
 				00E356ED1AD99517003FC87E /* realmTests */,
-				2D02E47A1E0B4A5D006451C7 /* realm-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* realm-tvOSTests */,
+				2D02E47A1E0B4A5D006451C7 /* test-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* test-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -406,7 +406,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-realm-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-test-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -428,7 +428,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-realm-realmTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-test-realmTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -450,7 +450,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-realm-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-test-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -463,7 +463,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-realm/Pods-realm-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-test/Pods-test-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -472,7 +472,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-realm/Pods-realm-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test/Pods-test-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CA6D708861C0DF40C2BE5177 /* [CP] Copy Pods Resources */ = {
@@ -481,7 +481,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-realm-realmTests/Pods-realm-realmTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-test-realmTests/Pods-test-realmTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -490,7 +490,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-realm-realmTests/Pods-realm-realmTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test-realmTests/Pods-test-realmTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F4E9C2576AD9F681FDE25DCC /* [CP] Check Pods Manifest.lock */ = {
@@ -508,7 +508,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-realm-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-test-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -595,12 +595,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* realm */;
+			target = 13B07F861A680F5B00A75B9A /* test */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* realm-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* test-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,7 +608,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0900AF9582A2ABCA0F1D1262 /* Pods-realm-realmTests.debug.xcconfig */;
+			baseConfigurationReference = 0900AF9582A2ABCA0F1D1262 /* Pods-test-realmTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -625,13 +625,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realm.app/realm";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 606739609B8B4FD923C013FB /* Pods-realm-realmTests.release.xcconfig */;
+			baseConfigurationReference = 606739609B8B4FD923C013FB /* Pods-test-realmTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -645,19 +645,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realm.app/realm";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DACD14F070EFE6D74B48163E /* Pods-realm.debug.xcconfig */;
+			baseConfigurationReference = DACD14F070EFE6D74B48163E /* Pods-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = realm/Info.plist;
+				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = realm;
+				PRODUCT_NAME = test;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -674,12 +674,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9F4A676BC0160AD1E7EA0CC /* Pods-realm.release.xcconfig */;
+			baseConfigurationReference = C9F4A676BC0160AD1E7EA0CC /* Pods-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = realm/Info.plist;
+				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -687,7 +687,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = realm;
+				PRODUCT_NAME = test;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4678233C4FC6DD6E18FD6AA9 /* Pods-realm-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 4678233C4FC6DD6E18FD6AA9 /* Pods-test-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -706,14 +706,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "realm-tvOS/Info.plist";
+				INFOPLIST_FILE = "test-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.realm-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.test-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A95173F4D3EF868086AB3F54 /* Pods-realm-tvOS.release.xcconfig */;
+			baseConfigurationReference = A95173F4D3EF868086AB3F54 /* Pods-test-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -734,14 +734,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "realm-tvOS/Info.plist";
+				INFOPLIST_FILE = "test-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.realm-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.test-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD938568D6F280E4635C2444 /* Pods-realm-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = CD938568D6F280E4635C2444 /* Pods-test-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -761,24 +761,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "realm-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "test-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.realm-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.test-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realm-tvOS.app/realm-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test-tvOS.app/test-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7CCF8B48F4F4B9AB5417E14 /* Pods-realm-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = F7CCF8B48F4F4B9AB5417E14 /* Pods-test-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -788,17 +788,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "realm-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "test-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.realm-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.test-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realm-tvOS.app/realm-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test-tvOS.app/test-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -928,7 +928,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "realm" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -937,7 +937,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "realm-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "test-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -946,7 +946,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "realm-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "test-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -955,7 +955,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "realm" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
