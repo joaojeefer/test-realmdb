@@ -4,6 +4,7 @@ import getRealm from '../../services/realm';
 import Creators from '../actions';
 
 function* fetchRepository({ input }) {
+  yield put(Creators.updateStatus('LOADING'));
   try {
     const { data } = yield call(api.get, `/repos/${input}`);
     yield put(Creators.saveRepository(data));
