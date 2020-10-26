@@ -1,11 +1,11 @@
 import { actionChannel, take, call, put } from 'redux-saga/effects';
-import api from '../services/api';
-import getRealm from '../services/realm';
+import api from '../../services/api';
+import getRealm from '../../services/realm';
 import Creators from '../actions';
 
 function* fetchRepository({ input }) {
   try {
-    const {data} = yield call(api.get, `/repos/${input}`);
+    const { data } = yield call(api.get, `/repos/${input}`);
     yield put(Creators.saveRepository(data));
     yield put(Creators.updateStatus('GET_REPOSITORY_SUCCESS'));
   } catch (error) {
