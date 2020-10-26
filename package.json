@@ -23,6 +23,7 @@
     "react-native-screens": "^2.11.0",
     "react-native-snackbar": "^2.2.3",
     "react-native-vector-icons": "^7.1.0",
+    "react-redux": "^7.2.1",
     "realm": "^10.0.1",
     "redux": "^4.0.5",
     "redux-offline-queue": "^1.1.1",
